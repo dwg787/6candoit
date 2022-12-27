@@ -10,7 +10,9 @@ const Button = styled.button`
   height: 40px;
   cursor: pointer;
   border-radius: 10px;
-  border: 1px solid #eee;
+  border: none;
+  color: white;
+  background-color: #3a6bfe;
 `;
 
 export default CustomButton;

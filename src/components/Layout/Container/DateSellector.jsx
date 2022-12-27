@@ -28,6 +28,7 @@ const DateSellector = ({ setFromDate, setToDate }) => {
       <Button
         type="primary"
         onClick={showModal}
+        style={{ width: "285px" }}
         //   style={{ backgroundColor }}
       >
         일정등록

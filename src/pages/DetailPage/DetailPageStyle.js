@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const PostpageWrap = styled.div`
   font-size: 1.3rem;
@@ -50,10 +50,12 @@ export const TitleSection = styled.div`
     border-radius: 0.9375rem;
     outline: none;
     padding-left: 0.625rem;
-    background-color: rgb(233, 233, 233);
+    background-color: transparent;
   }
   width: 100%;
-  height: 18.75rem;
+  height: 20%;
+  color: white;
+  text-shadow: 0.125rem 0.125rem 0.125rem #1a5ab5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,11 +81,11 @@ export const ContentSection = styled.div`
     border-radius: 0.9375rem;
     outline: none;
     padding-left: 0.625rem;
-    background-color: rgb(233, 233, 233);
+    background-color: transparent;
   }
 
   width: 100%;
-  height: 31.25rem;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,13 +99,14 @@ export const ContentSection = styled.div`
 
 export const CommentSection = styled.div`
   width: 100%;
-  height: 31.25rem;
+  height: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
   overflow: auto;
   border-radius: 1.25rem;
+  flex-direction: column;
   gap: 1.25rem;
   box-shadow: 0.0625rem 0.0625rem 2.5rem -0.9375rem rgba(108, 169, 255, 1);
   -webkit-box-shadow: 0.0625rem 0.0625rem 2.5rem -0.9375rem rgba(108, 169, 255, 1);
@@ -121,19 +124,27 @@ export const ButtonSection = styled.div`
 `;
 
 export const EditBtn = styled.button`
-  width: 3.125rem;
-  height: 1.875rem;
+  width: 80px;
+  height: 15%;
   cursor: pointer;
-  border: 0.0625rem solid black;
-  border-radius: 0.3rem;
+  padding: 10px;
+  border: none;
+  background-color: #3a8bfe;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0px 5px;
 `;
 
 export const CommentCreateBtn = styled.button`
-  width: 3.125rem;
-  height: 1.875rem;
+  width: 100px;
+  height: 15%;
   cursor: pointer;
-  border: 0.0625rem solid black;
-  border-radius: 0.3rem;
+  border-radius: 10px;
+  background-color: #3a8bfe;
+  color: white;
+  font-weight: bold;
+  border: none;
 `;
 
 // EditCompleteBtn.defaultProps = {
@@ -165,4 +176,26 @@ export const MainContainer = styled.div`
   flex-grow: 1;
   overflow: auto;
   background-color: #f6f8fb;
+`;
+
+export const CommentTitle = styled.div`
+  margin-right: 85%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #696969; ;
+`;
+
+export const Input = styled.input`
+  height: 4rem;
+  background: white;
+  width: 1030px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0.0625rem 0.0625rem 2.5rem -0.9375rem rgba(108, 169, 255, 1);
+  -webkit-box-shadow: 0.0625rem 0.0625rem 2.5rem -0.9375rem rgba(108, 169, 255, 1);
+  -moz-box-shadow: 0.0625rem 0.0625rem 2.5rem -0.9375rem rgba(108, 169, 255, 1);
 `;

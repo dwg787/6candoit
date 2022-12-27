@@ -93,7 +93,7 @@ export const AddBtn = styled.button`
   cursor: pointer;
   border: 0.0625rem solid #eff2f7;
   border-radius: 0.3rem;
-  margin: 0 auto 0 auto;
+  margin: 0 100px;
   /* font-size: 0.5rem; */
 `;
 

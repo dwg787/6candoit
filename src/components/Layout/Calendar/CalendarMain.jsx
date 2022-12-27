@@ -42,7 +42,6 @@ function CalendarMain() {
             <Calendar
               defaultView="dayGridMonth"
               plugins={[dayGridPlugin]}
-              events={calendarEvents}
             />
           </S.StyleWrapper>
         </S.MainContainer>

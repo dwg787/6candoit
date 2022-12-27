@@ -1,10 +1,10 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BoxWrap = styled.div`
   background-size: 100%;
   background: linear-gradient(to bottom right, #3a8bfe, #2bddff);
   margin-bottom: 1rem;
-  padding: 10px;
+  padding: 15px;
   height: 9rem;
   display: flex;
   justify-content: center;
@@ -25,6 +25,8 @@ export const ContentsWrap = styled.div`
 
 export const CreatedAtWrap = styled.div`
   width: 90%;
+  color: white;
+  text-shadow: 0.125rem 0.125rem 0.125rem #1a5ab5;
   font-size: 0.8rem;
   /* color: grey; */
   justify-content: space-between;
@@ -38,7 +40,7 @@ export const UserDiv = styled.div`
 
 export const UserProfile = styled.img`
   width: 50%;
-  border-radius: '10px';
+  border-radius: "10px";
   display: flex;
   flex-direction: column;
   border: 0px solid transparent;
@@ -61,15 +63,19 @@ export const UserProfile = styled.img`
 // export const TitleWrap = styled(ContentsWrap)`
 export const TitleWrap = styled.div`
   width: 90%;
+  color: white;
   font-size: 1.3rem;
   justify-content: center;
+  text-shadow: 0.125rem 0.125rem 0.125rem #1a5ab5;
 `;
 
 export const ContentWrap = styled.div`
   width: 90%;
   font-size: 1rem;
+  color: white;
   justify-content: center;
   padding-left: 0.3rem;
+  text-shadow: 0.125rem 0.125rem 0.125rem #1a5ab5;
 `;
 
 // export const ButtonWrap = styled(ContentsWrap)`
@@ -78,6 +84,7 @@ export const ButtonWrap = styled.div`
   flex-direction: row;
   gap: 0.3rem;
   justify-content: center;
+  margin-left: 20px;
 `;
 
 export const CusttomButton = styled.button`

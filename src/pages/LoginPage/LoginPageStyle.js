@@ -73,4 +73,5 @@ export const LoginWrapper = styled.div`
 
 export const SignUpText = styled.div`
   margin-bottom: 10px;
+  text-align: center;
 `;

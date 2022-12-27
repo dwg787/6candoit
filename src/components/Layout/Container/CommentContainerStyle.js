@@ -8,7 +8,8 @@ export const CommentWrap = styled.div`
   justify-content: center;
   flex-direction: row;
   gap: 10px;
-  border-bottom: 1px solid black;
+  margin-top: 20px;
+  border-bottom: 1.5px solid #d3d3d3;
   overflow: hidden;
 `;
 
@@ -21,7 +22,7 @@ export const CommentTextWrap = styled.div`
 `;
 
 export const CreatedAtWrap = styled.div`
-  width: 90%;
+  width: 30%;
   font-size: 0.8rem;
   /* color: grey; */
   justify-content: center;
@@ -35,13 +36,13 @@ export const CreatedAtWrap = styled.div`
 // `;
 
 export const UserNameWrap = styled.div`
-  width: 90%;
+  width: 50%;
   font-size: 1rem;
   justify-content: center;
 `;
 
 export const CommentContentWrap = styled.div`
-  width: 90%;
+  width: 100%;
   font-size: 1rem;
   justify-content: center;
   padding-left: 0.3rem;
@@ -56,17 +57,27 @@ export const ButtonWrap = styled.div`
 `;
 
 export const EditBtn = styled.button`
-  width: 3.125rem;
-  height: 1.875rem;
+  width: 80px;
+  height: 15%;
   cursor: pointer;
-  border: 0.0625rem solid black;
-  border-radius: 0.3rem;
+  padding: 10px;
+  border: none;
+  background-color: #3a8bfe;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0px 5px;
 `;
 
 export const DeleteButton = styled.button`
-  width: 3.125rem;
-  height: 1.875rem;
+  width: 80px;
+  height: 15%;
   cursor: pointer;
-  border: 0.0625rem solid black;
-  border-radius: 0.3rem;
+  padding: 10px;
+  border: none;
+  background-color: #3a8bfe;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0px 5px;
 `;

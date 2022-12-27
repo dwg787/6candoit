@@ -17,7 +17,7 @@
       "id": "f79ce77e-4cf2-a0d8-2ba5-6d80107971ac",
       "title": "하윙",
       "content": "하이",
-      "isDone": false,
+      "isDone": true,
       "userId": "CVhf698UXWP9ODzKDPAp1H3TETs2",
       "imgUrl": "/static/media/blankProfile.7a6a6c54279a54d1977c.webp",
       "invitedId": "qH0dfOYhi3aza3Ob0OTXgbqjjM92"
@@ -28,7 +28,7 @@
       "id": "13e2946f-87de-ef67-dc44-4652795f7655",
       "title": "운동하기",
       "content": "상체",
-      "isDone": true,
+      "isDone": false,
       "userId": "9eAwuAOhogOZfWmzm3lZ4PBSSus1",
       "imgUrl": "/static/media/blankProfile.7a6a6c54279a54d1977c.webp",
       "invitedId": "qH0dfOYhi3aza3Ob0OTXgbqjjM92"
@@ -112,41 +112,13 @@
       "fromDate": "2022-12-27T15:00:00.000Z",
       "toDate": "2022-12-28T15:00:00.000Z"
     },
-    {
-      "userName": "222",
-      "created_at": "2022.12.27 21:55:00",
-      "id": "b13c9bd9-04f2-3983-156f-ee690b8bf718",
-      "title": "테스트입니다",
-      "content": "입력이 잘 되는지 확인이 필요",
-      "isDone": false,
-      "userId": "qH0dfOYhi3aza3Ob0OTXgbqjjM92",
-      "imgUrl": "/static/media/blankProfile.7a6a6c54279a54d1977c.webp",
-      "invitedId": "CVhf698UXWP9ODzKDPAp1H3TETs2",
-      "fromDate": "2022-12-22T15:00:00.000Z",
-      "toDate": "2022-12-30T15:00:00.000Z"
-    },
-    {
-      "userName": "222",
-      "created_at": "2022.12.27 21:55:38",
-      "id": "36d23f17-fe06-eb4d-eff5-14151979b7a9",
-      "title": "테스트",
-      "content": "일정공유",
-      "isDone": false,
-      "userId": "qH0dfOYhi3aza3Ob0OTXgbqjjM92",
-      "imgUrl": "/static/media/blankProfile.7a6a6c54279a54d1977c.webp",
-      "invitedId": "CVhf698UXWP9ODzKDPAp1H3TETs2",
-      "fromDate": "2022-12-05T15:00:00.000Z",
-      "toDate": "2022-12-09T15:00:00.000Z"
-    }
   ],
   "user": [
     {
-      "id": "qH0dfOYhi3aza3Ob0OTXgbqjjM92",
-      "email": "222@naver.com",
-      "photoURL": "https://firebasestorage.googleapis.com/v0/b/candoit-cc12d.appspot.com/o/qH0dfOYhi3aza3Ob0OTXgbqjjM92%2FprofileUrl%2F7ae68887-249d-453b-899c-16937634fd78?alt=media&token=6cdb0af4-5ced-45c3-a0ab-f66632c026d4",
-      "displayName": "11122",
-      "invitedUid": "CVhf698UXWP9ODzKDPAp1H3TETs2",
-      "invitedEmail": "jungwn9494@gmail.com"
+      "id": "y7HiBfI49gMaplWbMNj8RLbdqPl1",
+      "email": "o100ente@gmail.com",
+      "photoURL": "https://firebasestorage.googleapis.com/v0/b/candoit-cc12d.appspot.com/o/y7HiBfI49gMaplWbMNj8RLbdqPl1%2FprofileUrl%2F3cc2a151-aa6c-4a18-bcdc-7d1acc85537e?alt=media&token=d87a7385-58f6-4e04-a3ed-bd552ca58714",
+      "displayName": "츄키러버"
     }
   ],
   "comments": [
@@ -227,6 +199,70 @@
       "id": "daf96af3-b426-4082-4e8e-030bf7230549",
       "creator": "qH0dfOYhi3aza3Ob0OTXgbqjjM92",
       "commentContent": "헬루"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "2a8c548e-4f26-6577-d7a5-5a181a3b2616",
+      "created_at": "2022.12.27 18:32:34",
+      "id": "8f4154fb-dced-7014-7430-72af6d98bf6e",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "ㄹㅊㅇㄴㄹㅇㅇㄹ"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "2a8c548e-4f26-6577-d7a5-5a181a3b2616",
+      "created_at": "2022.12.27 18:32:36",
+      "id": "423154db-7dcf-7756-fba4-10132930ec18",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "ㅇㄴㄹ"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "2a8c548e-4f26-6577-d7a5-5a181a3b2616",
+      "created_at": "2022.12.27 18:32:37",
+      "id": "d93cfaa4-5da9-5c65-d17b-158133b2af5b",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "ㅇㄴㄹㄴㅇ"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "2a8c548e-4f26-6577-d7a5-5a181a3b2616",
+      "created_at": "2022.12.27 18:32:39",
+      "id": "10f631a4-7c1f-d40b-9d1e-1f3404bff193",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "ㄴㅇㄹㄴㅇ"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "7f565bc9-dbf4-dfb4-39e8-f30ed086efc3",
+      "created_at": "2022.12.27 19:53:37",
+      "id": "4a485663-65eb-4f0f-baab-4906223097cb",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "sdfsdf"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "7f565bc9-dbf4-dfb4-39e8-f30ed086efc3",
+      "created_at": "2022.12.27 19:53:55",
+      "id": "5af467d4-a4af-0ada-2898-643fbaefc6fa",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "sacds"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "dfcd4c60-a5c5-e72e-2c2c-0823c63e663f",
+      "created_at": "2022.12.27 20:19:31",
+      "id": "bb7c2a9c-a71d-ba99-ee09-92a3d3cd75fe",
+      "creator": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "commentContent": "마지막인사~~"
+    },
+    {
+      "userName": "o100ente",
+      "parentId": "3eb6bc61-e7fa-9adc-ff4c-49ec42d81dcc",
+      "created_at": "2022.12.27 20:35:15",
+      "id": "ef6ed75b-5eba-f274-b2e7-69e5a4a7b116",
+      "creator": "y7HiBfI49gMaplWbMNj8RLbdqPl1",
+      "commentContent": "ㄴㄹㄴㅇㄹㅇㄴㄹㅇㄴㄹㄴㅇ"
     }
   ],
   "allUserList": [
@@ -275,6 +311,18 @@
       "email": "jhye4@test.com",
       "invitedUid": "9eAwuAOhogOZfWmzm3lZ4PBSSus1",
       "invitedEmail": "jhye2@test.com"
+    },
+    {
+      "id": "EGP36yqxW6VWhE1zqKSQxPptHB23",
+      "email": "o100ente@gmail.com",
+      "photoURL": "https://firebasestorage.googleapis.com/v0/b/candoit-cc12d.appspot.com/o/EGP36yqxW6VWhE1zqKSQxPptHB23%2FprofileUrl%2Fb9916569-fe17-4cbf-9da0-f1bf5bc490db?alt=media&token=7300d37b-5831-4ba0-8375-c4bcae19cfb5",
+      "displayName": null
+    },
+    {
+      "id": "y7HiBfI49gMaplWbMNj8RLbdqPl1",
+      "email": "o100ente@gmail.com",
+      "photoURL": "https://firebasestorage.googleapis.com/v0/b/candoit-cc12d.appspot.com/o/y7HiBfI49gMaplWbMNj8RLbdqPl1%2FprofileUrl%2F3cc2a151-aa6c-4a18-bcdc-7d1acc85537e?alt=media&token=d87a7385-58f6-4e04-a3ed-bd552ca58714",
+      "displayName": "츄키러버"
     }
   ]
 }
