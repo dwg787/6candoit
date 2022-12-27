@@ -70,13 +70,13 @@ const PostsContainer = () => {
         {user.length > 0 && ( //로그인 했을 때만 보이도록
           <div>
             {posts
-              .filter(
+              ?.filter(
                 (post) =>
                   (user[0].id === post.userId ||
                     user[0].id === post.invitedId) &&
                   post.isDone === false
               )
-              .map((post) => {
+              ?.map((post) => {
                 return (
                   <PostContainer key={post.id} post={post}></PostContainer>
                 );
@@ -93,13 +93,13 @@ const PostsContainer = () => {
         {user.length > 0 && ( //로그인 했을 때만 보이도록
           <div>
             {posts
-              .filter(
+              ?.filter(
                 (post) =>
                   (user[0].id === post.userId ||
                     user[0].id === post.invitedId) &&
                   post.isDone === true
               )
-              .map((post) => {
+              ?.map((post) => {
                 return (
                   <PostContainer key={post.id} post={post}></PostContainer>
                 );
